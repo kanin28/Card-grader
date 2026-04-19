@@ -520,7 +520,7 @@ Be honest and critical. PSA 10 requires near-perfect centering 60/40 or better b
     try {
       const res = await fetch('https://api.anthropic.com/v1/messages', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json', 'x-api-key': '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', 'anthropic-version': '2023-06-01' },
         body: JSON.stringify({
           model: 'claude-sonnet-4-20250514',
           max_tokens: 1000,
